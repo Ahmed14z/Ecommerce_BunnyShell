@@ -4,11 +4,10 @@ tags: [ flask, react, postgres ]
 icons: [ flask, react, postgres ]
 stack:
   packages:
-    
-name: Flask
-    version: '2.0'
-name: React
-  version: '17'
-name: PostgreSQL
-version: '15.2'
+    - name: Flask
+      version: '2.0'
+    - name: React
+      version: '17'
+    - name: PostgreSQL
+      version: '15.2'
 discoverable: true
