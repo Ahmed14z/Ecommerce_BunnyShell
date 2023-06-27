@@ -1,7 +1,6 @@
 kind: Environment
 name: 'ECommerce with Docker Com'
 type: primary
-urlHandle: 2squfw
 environmentVariables:
     REACT_APP_BACKEND_HOST: '{{components.flask-app.ingress.hosts[0].hostname}}'
 components:
